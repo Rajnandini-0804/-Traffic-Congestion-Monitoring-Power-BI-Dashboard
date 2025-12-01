@@ -6,8 +6,8 @@ The dashboard helps traffic authorities monitor congestion and take quick decisi
 ---
 
 ## 📊 Dashboard Preview
-*(Add your screenshot here after uploading in Images folder)*  
-`![Traffic Dashboard](Images/traffic_dashboard.png)`
+*( screenshot here )*  
+`![Traffic Dashboard](https://github.com/Rajnandini-0804/-Traffic-Congestion-Monitoring-Power-BI-Dashboard/blob/main/Screenshot%202025-12-01%20140734.png)`
 
 ---
 
@@ -53,6 +53,4 @@ This dashboard can help:
 | DAX | Calculated measures & insights |
 
 ---
-
-## 📁 Project Structure
 
