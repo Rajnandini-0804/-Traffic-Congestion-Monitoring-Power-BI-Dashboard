@@ -1,27 +1,46 @@
-# 🚦 Traffic Congestion Monitoring – Power BI Dashboard
+📌 Project Overview
 
-This project analyzes road traffic using real-time sensor data to track congestion levels, vehicle types, and speed categories across different locations.  
-The dashboard helps traffic authorities monitor congestion and take quick decisions to reduce delays and improve road safety.
+This project focuses on analyzing and monitoring road traffic congestion using cleaned traffic data and an interactive Power BI dashboard.
+The goal is to identify congestion patterns, peak hours, high-delay locations, and support data-driven traffic management decisions.
 
----
+📂 Project Structure
+📁 Road-Traffic-Congestion-Analysis
+│
+├── 📓 Data_Cleaning.ipynb
+├── 📊 Road Traffic Congestion_pbi.pbix
+├── 📄 README.md
 
-## 📊 Dashboard Preview
-*( screenshot here )*  
-https://github.com/Rajnandini-0804/-Traffic-Congestion-Monitoring-Power-BI-Dashboard/blob/main/Screenshot%202025-12-01%20140734.png
+🧹 Data Cleaning & Preprocessing (Python – Pandas)
 
----
+The dataset was cleaned and prepared using Python.
+Key steps include:
 
-## 🔍 Key Insights
+Handling missing and null values
 
-| Metric | Value | Meaning |
-|--------|-------|---------|
-| Low Traffic Count | 195 | Very low congestion area |
-| Peak Vehicle Count | 5172 | Maximum vehicles recorded during peak hours |
-| Speed Category | High Traffic | Heavy congestion overall |
-| Off-Peak Vehicles | 4868 | Traffic during off-peak hours |
-| Total Vehicles | 10K | Total vehicles monitored across sensors |
+Removing duplicates
 
----
+Standardizing column names
+
+Data type conversions (date, time, numeric fields)
+
+Creating derived columns for analysis (e.g., peak time, congestion level)
+
+📌 The cleaned dataset was then used for visualization in Power BI.
+
+📊 Power BI Dashboard Features
+
+The Power BI dashboard provides:
+
+Traffic volume analysis
+
+Congestion level comparison
+
+Peak vs non-peak hour insights
+
+Delay patterns across locations
+
+Key KPIs for quick decision-making
+
 
 ## 📌 Visuals Included in Dashboard
 
@@ -31,26 +50,51 @@ https://github.com/Rajnandini-0804/-Traffic-Congestion-Monitoring-Power-BI-Dashb
 - Traffic Congestion Map (Location Wise)
 - Speed Distribution Pie Chart
 
----
+📈 Key KPIs Used
 
-## 🧠 Business Use Case
+Average Traffic Speed
 
-This dashboard can help:
-- Traffic police control congestion & roadblocks
-- Analyze traffic peak hours
-- Identify high-risk areas due to heavy congestion
-- Improve city transport planning
-- Enable better emergency route planning
+Congestion Index
 
----
+Delay Duration
 
-## 🧰 Tools & Technologies
+Peak Hour Traffic Count
 
-| Tool | Purpose |
-|------|---------|
-| **Power BI Desktop** | Dashboard creation & visualization |
-| **Excel / CSV Dataset** | Sensor data source |
-| DAX | Calculated measures & insights |
+High Congestion Zones
 
----
+## 📊 Dashboard Preview
+*( screenshot here )*  
+https://github.com/Rajnandini-0804/-Traffic-Congestion-Monitoring-Power-BI-Dashboard/blob/main/Screenshot%202025-12-01%20140734.png
 
+🔍 Key Insights
+
+Traffic congestion is highest during peak hours
+
+Certain locations consistently show high delay duration
+
+Congestion patterns vary significantly by time of day
+
+Identifying hotspots can help in better traffic planning
+
+🎯 Business / Practical Use Case
+
+Helps traffic authorities monitor congestion
+
+Supports smart city traffic planning
+
+Useful for route optimization
+
+Enables data-driven traffic control decisions
+
+🛠 Tools & Technologies
+
+Python: Pandas, NumPy
+
+Power BI: Data modeling, DAX, interactive visuals
+
+Jupyter Notebook
+
+🚀 Conclusion
+
+This project demonstrates how data cleaning + visualization can be used together to solve real-world traffic problems.
+The dashboard enables stakeholders to quickly understand congestion trends and take informed actions.
