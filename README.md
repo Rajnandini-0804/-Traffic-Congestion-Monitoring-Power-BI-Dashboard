@@ -66,6 +66,8 @@ High Congestion Zones
 *( screenshot here )*  
 https://github.com/Rajnandini-0804/-Traffic-Congestion-Monitoring-Power-BI-Dashboard/blob/main/Screenshot%202025-12-01%20140734.png
 
+Explore cleaned data here:
+👉 https://github.com/Rajnandini-0804/-Traffic-Congestion-Monitoring-Power-BI-Dashboard/blob/main/cln.ipynb
 🔍 Key Insights
 
 Traffic congestion is highest during peak hours
